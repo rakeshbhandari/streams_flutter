@@ -14,6 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      //remove bug banner
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.lime,
